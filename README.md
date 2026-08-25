@@ -1,12 +1,13 @@
-# Derin Öğrenme Tabanlı Trafik İşareti Tanıma Sistemi
+# Traffic Sign Recognition Model
 
-Bu proje, otonom araçlar ve sürüş destek sistemleri (ADAS) için görüntü verileri üzerinden trafik işaretlerini yüksek doğrulukla tespit etmek ve sınıflandırmak amacıyla geliştirilmiş bir Derin Öğrenme (Deep Learning) çalışmasıdır.
+A deep learning project that classifies and detects traffic signs with high accuracy using a Convolutional Neural Network (CNN) architecture.
 
-## 🚀 Proje Öne Çıkan Özellikleri
-* **Evrişimli Sinir Ağları (CNN):** Derin mimariler kullanılarak verisetindeki görseller üzerinde özellik çıkarımı (feature extraction) ve sınıflandırma yapıldı.
-* **Veri Ön İşleme & Artırma (Augmentation):** Modelin genelleştirme başarısını artırmak için boyutlandırma, piksel ölçekleme ve veri çoğaltma teknikleri uygulandı.
-* **Model Eğitimi & Performans:** `model-egitimi.py` modülü üzerinden eğitilen modelin kayıp (loss) ve doğruluk (accuracy) grafikleri analiz edildi.
+## 🚀 Overview
 
-## 🛠 Kullanılan Teknolojiler
-* **Dil:** Python
-* **Kütüphaneler / Frameworks:** PyTorch / TensorFlow, OpenCV, NumPy, Matplotlib
+- Built and trained a CNN model in PyTorch for traffic sign classification.
+- Achieved high-accuracy detection and classification across sign categories.
+
+## 🛠️ Technologies Used
+
+- **Language:** Python
+- **Framework:** PyTorch
